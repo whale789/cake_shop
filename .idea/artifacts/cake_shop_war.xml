@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cake_shop:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/cake_shop_war</output-path>
+    <root id="archive" name="cake_shop_war.war">
+      <element id="artifact" artifact-name="cake_shop:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

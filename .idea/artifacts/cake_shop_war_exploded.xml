@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cake_shop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cake_shop_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cake_shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.10-bin" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../Tomcat/apache-tomcat-8.5.75/lib/servlet-api.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="cake_shop/web/Web" />
+    </root>
+  </artifact>
+</component>
